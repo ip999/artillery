@@ -1,5 +1,5 @@
 config:
-  target: "https://127.0.0.1/:8080"
+  target: "https://8080-dot-5275200-dot-devshell.appspot.com"
   phases:
     - duration: 10
       arrivalRate: 1
