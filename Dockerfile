@@ -11,6 +11,7 @@ COPY README.md README.md
 COPY console-reporter.js console-reporter.js
 COPY util.js util.js
 COPY package.json package.json
+COPY art.yaml art.yaml
 
 RUN npm --ignore-scripts --production install
 
