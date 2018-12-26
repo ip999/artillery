@@ -1,0 +1,12 @@
+config:
+  target: "https://127.0.0.1/:8080"
+  phases:
+    - duration: 10
+      arrivalRate: 1
+scenarios:
+  - flow:
+      - log: "New virtual user running"
+      - get:
+          url: "/a"
+      - get:
+          url: "/b"
