@@ -1,5 +1,5 @@
 config:
-  target: "https://8080-dot-5275200-dot-devshell.appspot.com"
+  target: "http://0c199f8c.ngrok.io/"
   phases:
     - duration: 10
       arrivalRate: 1
